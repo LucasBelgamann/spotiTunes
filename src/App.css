@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins" , sans-serif;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  font-size: 1.5rem;
+}
+
+.container-login {
+  background-color: white;
+  border-radius: 10px;
+  height: 40vh;
+  margin: 8rem auto;
+  padding: 6rem 0;
+  width: 50vw;
+}
+
+.trybeTunes {
+  color: white;
+  margin: 3rem;
+}
+
+.form-login {
+  margin: 5rem;
+}
+
+.form-login button {
+  background-color: rgb(230, 9, 255);
+  border-radius: 5px;
+  color: black;
+  font-weight: 900;
+  padding: 0.5rem;
+  width: 10vw;
+}
+
+.form-login input {
+  height: 3rem;
+  margin-right: 2rem;
+  width: 25vw;
+}
+
+.spam {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.icone {
+  margin-left: 3rem;
+  width: 4vw;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.navBar {
+  display: flex;
+  list-style: none;
+  padding: 2rem;
+}
+
+.navBar a {
+  padding: 2rem;
+}
+
+.navBar a:hover {
+  color: rgb(230, 9, 255);
+}
+
+.titulo a {
+  align-items: center;
+  display: flex;
+}
+
+.input-search input {
+  color: black;
+  height: 4vh;
+  margin: 2rem;
+  width: 50vw;
+}
+
+.input-search {
+  background-color: white;
+  color: black;
+  height: 15vh;
+  margin-top: 3rem;
+  width: 100vw;
+}
+
+.input-search button {
+  background-color: rgb(230, 9, 255);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 0.5rem;
+  width: 8vw;
+}
+
+.header {
+  height: 10vh;
+}
+
+
+.album {
+  background-color: rgb(230, 9, 255);
+  border-radius: 7px;
+  height: 37vh;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.album a {
+  padding: 2rem;
+  width: 10vw;
+}
+
+.albuns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.audio {
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+}
+
+.trak {
+  background-color:  rgb(230, 9, 255);
+  border-radius: 5px;
+  padding: 2rem;
+  width: 20vw;
+}
+
+.spam2 {
+  color: black;
+  margin-left: 4rem;
+}
+
+.imagem-siger {
+  margin: 4rem;
+}
+
+
+@media screen and ( min-width : 390px ) and ( max-width : 570px ) {
+
+  .container-login {
+    background-color: white;
+    height: 30vh;
+    padding: 6rem 0;
+    width: 85vw;
+  }
+
+  .form-login {
+    margin: 0 3rem;
+    width: 20vw;
+  }
+  .form-login input {
+    width: 60vw;
+  }
+
+  .form-login button {
+    margin: 1rem 4.3rem;
+    width: 25vw;
+  }
+
+  .icone {
+    width: 20vw;
+  }
+
+  .navBar {
+    margin-bottom: 5rem;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .titul {
+    margin-top: 2rem;
+  }
+
+  .spam2 {
+    margin-left: 1rem;
+  }
+
+  .input-search button {
+    margin: 0 9rem;
+    width: 20vw;
+  }
+
+  .input-search {
+    height: 20vh;
+    margin-top: 10rem;
+  }
+
+  .albuns {
+    flex-direction: column;
+  }
+
+  .album {
+    height: 45vh;
+  }
+
+  .trak {
+    width: 95vw;
+  }
+
+  .imagem-siger {
+    margin-top: 10rem;
+  }
+}
