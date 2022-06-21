@@ -71,6 +71,7 @@ body {
   list-style: none;
   padding: 2rem;
   width: 100vw;
+  justify-content: space-around;
 }
 
 .navBar a {
@@ -84,6 +85,7 @@ body {
 .titulo a {
   align-items: center;
   display: flex;
+  margin-top: 2rem;
 }
 
 .input-search input {
@@ -97,8 +99,8 @@ body {
   background-color: white;
   color: black;
   height: 15vh;
-  margin-top: 3rem;
   width: 100vw;
+  margin-top: 2rem;
 }
 
 .input-search button {
@@ -190,9 +192,7 @@ header {
   }
 
   .navBar {
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 5rem;
+    display: none;
   }
 
   .header {
@@ -204,8 +204,8 @@ header {
     width: 100%;
   }
 
-  .titulo {
-    margin-top: 2rem;
+  .titulo a {
+    margin: 0;
   }
 
   .spam2 {
@@ -219,7 +219,7 @@ header {
 
   .input-search {
     height: 20vh;
-    margin-top: 10rem;
+    margin-top: 2.5rem;
   }
 
   .albuns {
