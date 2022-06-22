@@ -121,7 +121,7 @@ body {
 .album {
   background-color: rgb(230, 9, 255);
   border-radius: 7px;
-  height: 37vh;
+  height: 40vh;
   margin: 2rem;
   padding: 2rem;
 }
@@ -148,7 +148,7 @@ header {
 }
 
 .trak {
-  background-color:  rgb(230, 9, 255);
+  background-color: rgb(230, 9, 255);
   border-radius: 5px;
   padding: 2rem;
   width: 20vw;
@@ -180,6 +180,7 @@ header {
 
   .form-login input {
     width: 60vw;
+    color: black;
   }
 
   .form-login button {
@@ -205,7 +206,15 @@ header {
   }
 
   .titulo a {
-    margin: 0;
+    margin: 2rem 0;
+  }
+
+  .spam {
+    color: black;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
   }
 
   .spam2 {

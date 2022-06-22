@@ -63,6 +63,7 @@ class Search extends React.Component {
                 data-testid="search-artist-input"
                 onChange={ this.handleChanger }
                 name="inputSearch"
+                placeholder="nome do artista ou do album"
               />
               <button
                 type="button"
