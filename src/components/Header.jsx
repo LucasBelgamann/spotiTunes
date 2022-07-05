@@ -31,7 +31,6 @@ class Header extends React.Component {
         <header data-testid="header-component">
           <div className="titulo">
             <Link to="/search">
-              <img className="icone" src="https://icones.pro/wp-content/uploads/2021/04/icone-spotify-rose.png" alt="spotiTunes" />
               <p data-testid="header-user-name">
                 Bem vindo
                 {' '}
