@@ -40,7 +40,6 @@ class Login extends React.Component {
     return (
       <>
         <div className="logo">
-          <img className="icone" src="https://icones.pro/wp-content/uploads/2021/04/icone-spotify-rose.png" alt="spotiTunes" />
           <h1 className="trybeTunes">SpotiTunes</h1>
         </div>
         <div data-testid="page-login" className="container-login">
